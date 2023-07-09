@@ -44,3 +44,81 @@ body{
     font-size: 20px;
     font-weight: 600;
 }
+.about{
+    height: 80vh;
+    padding: 50px;
+    margin-top: 50px;
+}
+.about-container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+.profile-img{
+    width: 450px;
+}
+.about-info{
+    width: 415px;
+}
+.section-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+.section-description{
+    color:#444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 15px 0;
+}
+.item{
+    list-style-image: url(../images/icons/check.png);
+    color:  #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 30px;
+}
+/* plans section related styles */
+.plans{
+    width: 80%;
+    margin: auto;
+}
+.plan-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.box-icon{
+    height: 90px;
+    width: 90px;
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+.box{
+    width: 20%;
+    height: 250px;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 5px 5px 10px lightblue;
+}
+.box-title{
+    color:  #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 15px;
+}
+.box-description{
+    color: #474747;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+.plan-container{
+    display: flex;
+    justify-content: space-between;
+}
